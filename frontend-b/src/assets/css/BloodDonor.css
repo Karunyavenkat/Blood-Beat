@@ -1,0 +1,130 @@
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+    margin: 50px auto; 
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555555;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container textarea {
+    resize: vertical;
+}
+
+.form-container button {
+    background-color: #c52e2e;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: rgba(221, 69, 69, 0.967);
+}
+
+/* 
+:root {
+    --primary-red: #e63946;
+    --dark-red: #a4161a;
+    --neutral-white: #ffffff;
+    --dark-grey: #333333;
+    --light-grey: #f7f7f7;
+}
+
+.donor-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--neutral-white);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.donor-form .form-group {
+    margin-bottom: 15px;
+}
+
+.donor-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.donor-form .form-group input,
+.donor-form .form-group select,
+.donor-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--dark-grey);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.donor-form .form-group.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.donor-form .form-group.checkbox-group input {
+    width: auto;
+    margin-right: 10px;
+}
+
+.donor-form .form-group.checkbox-group label {
+    font-weight: normal;
+}
+
+.donor-form .form-group.checkbox-group a {
+    color: var(--primary-red);
+    text-decoration: none;
+}
+
+.donor-form .form-group.checkbox-group a:hover {
+    text-decoration: underline;
+}
+
+.submit-button {
+    background-color: var(--primary-red);
+    color: var(--neutral-white);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: var(--dark-red);
+}
+ */

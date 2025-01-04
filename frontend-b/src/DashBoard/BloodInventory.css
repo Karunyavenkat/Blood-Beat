@@ -1,0 +1,23 @@
+.blood-inventory {
+    margin-bottom: 20px;
+}
+
+.blood-inventory h2 {
+    margin-bottom: 10px;
+}
+
+.blood-inventory table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.blood-inventory th, .blood-inventory td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.blood-inventory th {
+    background-color: #3498db;
+    color: white;
+}

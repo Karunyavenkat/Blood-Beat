@@ -1,0 +1,23 @@
+.donor-list {
+    margin-bottom: 20px;
+}
+
+.donor-list h2 {
+    margin-bottom: 10px;
+}
+
+.donor-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.donor-list th, .donor-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.donor-list th {
+    background-color: #3498db;
+    color: white;
+}

@@ -1,0 +1,68 @@
+.blood-bank-list {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .blood-bank-list h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .blood-bank-list p {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #d9534f;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .bank-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .bank-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .bank-item img {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .bank-item h2 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .bank-item p {
+    margin: 5px 0;
+  }
+  

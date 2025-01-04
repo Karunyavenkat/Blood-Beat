@@ -1,0 +1,67 @@
+.blood-supply-levels {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.blood-supply-levels h1 {
+    font-size: 2em;
+}
+
+.blood-supply-levels p {
+    margin: 5px 0;
+}
+
+.dropdown {
+    margin: 20px 0;
+}
+
+.drops-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blood-type {
+    text-align: center;
+}
+
+.drop {
+    width: 50px;
+    height: 80px;
+    background: grey;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.drop::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: red;
+    border-radius: 50% 50% 0 0;
+}
+
+.drop.need-more::before {
+    height: 20%;
+}
+
+.drop.low::before {
+    height: 40%;
+}
+
+.drop.ok::before {
+    height: 60%;
+}
+
+.drop.good::before {
+    height: 100%;
+}
+
+.drop.not-collected::before {
+    height: 0;
+}
+

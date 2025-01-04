@@ -1,0 +1,77 @@
+.blood-inventory {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  section p {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #d9534f;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .inventory-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .inventory-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .inventory-item img {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .inventory-item h2 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .inventory-item p {
+    margin: 5px 0;
+  }
+  

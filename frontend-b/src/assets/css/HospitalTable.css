@@ -1,0 +1,74 @@
+/* .app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hospital-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .hospital-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    flex: 1 1 calc(25% - 40px);
+    text-align: center;
+  }
+  
+  .hospital-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hospital-details {
+    margin-top: 40px;
+  }
+  
+  .hospital-details table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .hospital-details th, .hospital-details td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .hospital-details th {
+    background-color: #f1f1f1;
+  }
+  
+  .fa-map-marker {
+    color: #ff0000;
+  }
+   */
+
+
+   .hospital-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
