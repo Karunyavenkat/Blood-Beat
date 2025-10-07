@@ -12,6 +12,7 @@ It ensures efficient management of blood supply and demand, enabling quick acces
 ![image](https://github.com/user-attachments/assets/7db75f00-9a03-4720-9e64-12c58835879a)
 ![image](https://github.com/user-attachments/assets/2fd67b55-cd48-473c-b020-34837e5cba08)
 ![image](https://github.com/user-attachments/assets/f98ef3bc-729b-4c84-9cae-d4cbb078fe9e)
+![WhatsApp Image 2025-10-07 at 8 46 58 PM](https://github.com/user-attachments/assets/95daae54-340d-4de0-8c91-fc72a0a56f3b)
 
 ---
 
